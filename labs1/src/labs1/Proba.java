@@ -95,7 +95,7 @@ public class Proba
 //      String type = "plain";
     File out = new File("c:/Temp/simple." + type);   // Linux
 //    File out = new File("c:/eclipse.ws/graphviz-java-api/tmp/simple." + type);   // Windows
-    gv.writeGraphToFile( gv.getGraph( gv.getDotSource(), type ), out );
+    gv.readGraphToFile( gv.getGraph( gv.getDotSource(), type ), out );
    }
 }
 
