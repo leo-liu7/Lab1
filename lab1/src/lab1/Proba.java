@@ -1,7 +1,7 @@
 package lab1;
 
 import java.io.File;
-import java.util.ArrayList;
+
 
 import lab1.ReadFromFile.ListNDG;
 public class Proba
